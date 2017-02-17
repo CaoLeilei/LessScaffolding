@@ -1,0 +1,42 @@
+
+/**
+*
+* 内边距相关的内容
+*
+**/
+
+.padding (@g, @gap) {
+    .p-@{g} { padding: @gap; }
+}
+
+.padding-top (@g, @gap) {
+    .pt-@{g} { padding-top: @gap; }
+}
+
+.padding-right (@g, @gap) {
+    .pr-@{g} { padding-right: @gap; }
+}
+
+.padding-bottom (@g, @gap) {
+    .pb-@{g} { padding-bottom: @gap; }
+}
+
+.padding-left (@g, @gap) {
+    .pl-@{g} { padding-left: @gap; }
+}
+
+.padding-all (@g, @gap) {
+    .p-@{g} { padding: @gap; }
+    .pt-@{g} { padding-top: @gap; }
+    .pr-@{g} { padding-right: @gap; }
+    .pb-@{g} { padding-bottom: @gap; }
+    .pl-@{g} { padding-left: @gap;}
+}
+
+.padding-all(0, 0);
+.padding-all(5, 5px);
+.padding-all(10, 10px);
+.padding-all(15, 15px);
+.padding-all(20, 20px);
+.padding-all(25, 25px);
+.padding-all(30, 30px);

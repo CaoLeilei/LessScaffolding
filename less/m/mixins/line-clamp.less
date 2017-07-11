@@ -1,0 +1,13 @@
+.line-clamp (@lc) when not (@lc = 1){
+    display: box;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: @lc;
+    overflow: hidden;
+}
+
+.line-clamp (@lc) when (@lc = 1) {
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
